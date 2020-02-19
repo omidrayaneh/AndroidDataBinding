@@ -5,6 +5,7 @@ Data Binding Library is a support library that enables you to bind UI elements i
 #sample :
 
 TextView userName=findViewById(R.id.userName); userName.setText(getCurrentUser().getUserName);
+
 TextView userEmail=findViewById(R.id.userEmail); userEmail.setText(getCurrentUser().getUserEmail);
 
 #change to :
